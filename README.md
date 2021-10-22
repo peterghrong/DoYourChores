@@ -24,7 +24,10 @@ DoYourChores is a SMS messaging app utilizing scheduling and twilio SMS API to s
 - AUTH_TOKEN
 - SENDER_NUMBER
 
-2. Add chores and housemates in the UI, note that the day in the week is defined as (0,6) representing Monday to Friday, future improvements can be made here.
+2. Adjust the following lines to the source file in /backend/backend/settings.py
+- DJANGO_SECRET_KEY
+
+3. Add chores and housemates in the UI, note that the day in the week is defined as (0,6) representing Monday to Friday, future improvements can be made here.
 
 ## Example Usage
 <p align="center">
